@@ -6,7 +6,7 @@ creator profiles, and trigger brand outreach requests.
 
 - **Endpoint:** `https://ugc-vz.de/api/mcp`
 - **Transport:** Streamable HTTP
-- **MCP registry:** `io.github.shufflethis/ugc-vz`
+- **MCP registry:** `de.ugc-vz/creator-search`
 - **Manifest:** [`/.well-known/mcp.json`](https://ugc-vz.de/.well-known/mcp.json)
 - **REST alternative:** [OpenAPI 3.1](https://ugc-vz.de/openapi.json) · Docs: [ugc-vz.de/developers](https://ugc-vz.de/developers)
 

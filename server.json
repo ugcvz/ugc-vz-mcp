@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.shufflethis/ugc-vz",
+  "name": "de.ugc-vz/creator-search",
   "title": "UGC VZ Creator Search",
-  "description": "Search real UGC creators in the DACH region: profiles, pricing, reach, brand outreach. Free, no API key.",
+  "description": "Find real UGC creators in the DACH region: profiles, pricing, reach, outreach. No API key.",
   "version": "1.0.0",
   "websiteUrl": "https://ugc-vz.de/developers",
   "remotes": [
