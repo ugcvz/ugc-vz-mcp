@@ -25,7 +25,7 @@
   "homepage": "https://ugc-vz.de/developers",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shufflethis/ugc-vz-mcp.git"
+    "url": "git+https://github.com/ugcvz/ugc-vz-mcp.git"
   },
   "engines": {
     "node": ">=18"
