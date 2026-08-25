@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.shufflethis/ugc-vz",
+  "title": "UGC VZ Creator Search",
+  "description": "Search real UGC creators in the DACH region (Germany, Austria, Switzerland): profiles, topics, pricing, reach, and brand outreach requests. Free, no API key.",
+  "version": "1.0.0",
+  "websiteUrl": "https://ugc-vz.de/developers",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ugc-vz.de/api/mcp"
+    }
+  ]
+}

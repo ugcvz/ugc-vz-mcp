@@ -1,0 +1,33 @@
+{
+  "name": "ugc-vz-mcp",
+  "version": "1.0.0",
+  "description": "MCP stdio bridge to the UGC VZ creator directory (DACH) - search real UGC creators, inspect profiles, trigger brand outreach. Free, no API key.",
+  "bin": {
+    "ugc-vz-mcp": "bin/ugc-vz-mcp.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "mcpName": "io.github.shufflethis/ugc-vz",
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "ugc",
+    "creator",
+    "influencer",
+    "dach",
+    "germany"
+  ],
+  "author": "track by track GmbH <hi@ugc-vz.de> (https://ugc-vz.de)",
+  "license": "MIT",
+  "homepage": "https://ugc-vz.de/developers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shufflethis/ugc-vz-mcp.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
