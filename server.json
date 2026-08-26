@@ -10,5 +10,12 @@
       "type": "streamable-http",
       "url": "https://ugc-vz.de/api/mcp"
     }
-  ]
+  ],
+  "_meta": {
+    "de.ugc-vz/legal": {
+      "termsOfService": "https://ugc-vz.de/agb",
+      "appliesTo": "Section 10 governs machine access (API, MCP, AI agents).",
+      "summary": "request_outreach is for genuine own inquiries only and sends real email; contact data is purpose-bound; the directory is a protected database under German law (Sections 87a ff. UrhG). MIT covers this client code, not the directory data."
+    }
+  }
 }

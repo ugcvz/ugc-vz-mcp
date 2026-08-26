@@ -84,6 +84,12 @@ connector; Custom GPT Actions can import the
 
 Typical flow: `search_creators` → `get_creator` → `request_outreach` → `get_outreach_status`.
 
+Using these tools means accepting the
+[UGC VZ terms](https://ugc-vz.de/agb) — section 10 covers machine access.
+In short: `request_outreach` only for genuine inquiries of your own, with a
+brand name and address that are actually yours; no bulk requests, no test
+calls. Whoever operates the agent is responsible for what it triggers.
+
 ## FAQ
 
 **What is UGC VZ?**
@@ -126,7 +132,9 @@ auslösen — ohne API-Key, ohne Provision.
 - Entwickler-Doku: [ugc-vz.de/developers](https://ugc-vz.de/developers)
 
 **Achtung:** `request_outreach` löst eine echte Kontaktanfrage mit
-E-Mail-Versand aus — kein Test-Endpunkt.
+E-Mail-Versand aus — kein Test-Endpunkt. Nur für ernsthafte eigene Anfragen,
+mit zutreffenden Absenderdaten. Es gelten die
+[Nutzungsbedingungen](https://ugc-vz.de/agb), Ziffer 10 (maschinelle Nutzung).
 
 ---
 
@@ -134,5 +142,8 @@ This repository contains documentation, discovery metadata (`server.json`),
 and the npm stdio bridge. The server itself is operated by track by track
 GmbH, Berlin ([Impressum](https://ugc-vz.de/impressum)).
 
-**License:** MIT — see [LICENSE](LICENSE). Directory data remains subject to
-the [UGC VZ terms](https://ugc-vz.de/agb).
+**License:** MIT — see [LICENSE](LICENSE). The MIT license covers this
+client code only. The directory data remains subject to the
+[UGC VZ terms](https://ugc-vz.de/agb) and is a protected database under
+German law (§§ 87a ff. UrhG): no systematic extraction, no competing
+directory built from it, no use as training data.
