@@ -1,6 +1,6 @@
 {
   "name": "ugc-vz-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP stdio bridge to the UGC VZ creator directory (DACH) - search real UGC creators, inspect profiles, trigger brand outreach. Free, no API key.",
   "bin": {
     "ugc-vz-mcp": "bin/ugc-vz-mcp.js"

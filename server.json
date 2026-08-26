@@ -3,8 +3,19 @@
   "name": "de.ugc-vz/creator-search",
   "title": "UGC VZ Creator Search",
   "description": "Find real UGC creators in the DACH region: profiles, pricing, reach, outreach. No API key.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "websiteUrl": "https://ugc-vz.de/developers",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "ugc-vz-mcp",
+      "version": "1.0.1",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
@@ -12,10 +23,12 @@
     }
   ],
   "_meta": {
-    "de.ugc-vz/legal": {
-      "termsOfService": "https://ugc-vz.de/agb",
-      "appliesTo": "Section 10 governs machine access (API, MCP, AI agents).",
-      "summary": "request_outreach is for genuine own inquiries only and sends real email; contact data is purpose-bound; the directory is a protected database under German law (Sections 87a ff. UrhG). MIT covers this client code, not the directory data."
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "de.ugc-vz/legal": {
+        "termsOfService": "https://ugc-vz.de/agb",
+        "appliesTo": "Section 10 governs machine access (API, MCP, AI agents).",
+        "summary": "request_outreach is for genuine own inquiries only and sends real email; contact data is purpose-bound; the directory is a protected database under German law (Sections 87a ff. UrhG). MIT covers this client code, not the directory data."
+      }
     }
   }
 }
